@@ -4,9 +4,8 @@ Metabase is an open-source business intelligence (BI) tool that enables users to
 
 The metabase terraform module is a preconfigured collection of files and resources designed for configuring metabase using terraform. With this module, you can easily handle various metabase configurations, including user groups, data source settings, and permission mappings. This module abstracts away the complexity of configuring metabase, providing a simplified and streamlined process.
 
-```text
-It's important to understand that the module data is not treated as sensitive by default. In order to conceal both the data submitted by this provider and the data received from the API, you will need to configure the environment variable API_DATA_IS_SENSITIVE=true.
-```
+## Caution
+It's important to understand that the module data is not treated as sensitive by default. In order to conceal both the data submitted by this provider and the data received from the API, you will need to configure the environment variable **API_DATA_IS_SENSITIVE=true**.
 
 
 
